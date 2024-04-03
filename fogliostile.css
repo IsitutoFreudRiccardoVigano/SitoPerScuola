@@ -26,8 +26,8 @@ header
     z-index: 10000;
 }
 .logo img {
-    width: 70px; /* Imposta la larghezza desiderata */
-    height: auto; /* Imposta l'altezza automaticamente mantenendo l'aspetto proporzionato */
+    width: 70px;
+    height: auto;
 }
 header ul
 {
@@ -140,14 +140,14 @@ section img#mountains_front
     margin: 20px;
     border-bottom-color: #1c0522;
   }
-/* Stile per il titolo "News" */
+
 #news h2 {
     color: white;
     text-align: center;
-    margin-top: 0; /* Rimuove lo spazio superiore predefinito */
-    padding-top: 20px; /* Aggiunge spazio sopra il titolo */
-    position: relative; /* Posizione relativa per allineamento verticale */
-    text-decoration: none; /* Rimuove la sottolineatura */
+    margin-top: 0;
+    padding-top: 20px;
+    position: relative;
+    text-decoration: none;
 }
 
 
@@ -165,14 +165,14 @@ section img#mountains_front
   #news h2 {
     color: #fff;
     margin-bottom: 10px;
-    border-bottom: 2px solid #1c0522; /* Aggiunto bordo inferiore */
+    border-bottom: 2px solid #1c0522;
     border-color: #fff;
   }
   
   #news p {
     color: #fff;
     line-height: 1.6;
-    border-bottom: 1px solid #1c0522; /* Aggiunto bordo inferiore */
+    border-bottom: 1px solid #1c0522;
     border-color: #1c0522;
   }
   
@@ -189,7 +189,7 @@ section img#mountains_front
   
   #news a:hover {
     background-color: #fff;
-    color: #1c0522; /* Cambiato il colore del testo al passaggio del mouse */
+    color: #1c0522;
     border-color: #1c0522;
   }
   * {box-sizing:border-box}
@@ -255,13 +255,11 @@ section img#mountains_front
     clear: both;
   }
   
-  /* Six columns side by side */
   .column {
     float: left;
     width: 16.66%;
   }
-  
-  /* Add a transparency effect for thumnbail images */
+
   .demo {
     opacity: 0.6;
   }
@@ -274,29 +272,22 @@ section img#mountains_front
     max-width: 100%;
     height: 900px;
   }
-/* Stile per la sezione video */
 #video {
     padding: 20px;
     background-color: #1c0522;
   }
-  
-  /* Stile per il titolo della sezione */
   #video h2 {
     color: #fff;
     font-size: 24px;
     text-align: center;
   }
-  
-  /* Stile per il contenitore del video */
   .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* Rapporto di aspetto 16:9 per i video */
+    padding-bottom: 56.25%;
     overflow: hidden;
     margin-top: 20px;
   }
-  
-  /* Stile per il video incorporato */
   .video-container iframe, .video-container object, .video-container embed {
     position: absolute;
     top: 0;
@@ -307,14 +298,10 @@ section img#mountains_front
   form {
     border: 4px solid #1c0522;
   }
-  
-  /* Add some padding and a grey background color to containers */
   .container {
     padding: 20px;
     background-color: #1c0522;
   }
-  
-  /* Style the input elements and the submit button */
   input[type=text], input[type=submit] {
     width: 100%;
     padding: 12px;
@@ -324,13 +311,9 @@ section img#mountains_front
     box-sizing: border-box;
     color: #fff;
   }
-  
-  /* Add margins to the checkbox */
   input[type=checkbox] {
     margin-top: 16px;
   }
-  
-  /* Style the submit button */
   input[type=submit] {
     background-color: #1c0522;
     color: white;
@@ -344,8 +327,6 @@ section img#mountains_front
   p {
     color: white;
 }
-
-/* Modifica il colore dell'etichetta "Daily Newsletter" */
 label[for="subscribe"] {
     color: white;
 }

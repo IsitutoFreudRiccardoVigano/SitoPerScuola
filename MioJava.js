@@ -1,12 +1,8 @@
 let slideIndex = 1;
 showSlides(slideIndex);
-
-// Next/previous controls
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
-// Thumbnail image controls
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
@@ -34,7 +30,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function enableEditing() {
-    // Seleziona gli input e rimuovi l'attributo "readonly"
     var nameInput = document.getElementsByName('name')[0];
     var mailInput = document.getElementsByName('mail')[0];
     nameInput.removeAttribute('readonly');
